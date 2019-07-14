@@ -1,5 +1,4 @@
 # Hello-World
-my first repository
 Hello Humans!
 I come from China.
 I not good at programming.
