@@ -222,7 +222,6 @@ public class CollectionTest04 {
         list.add("java");
         System.out.println(listTest(list,"java"));
     }
-
     public static boolean listTest(ArrayList<String> al, String s) {
         //判断s是否在集合中存在,存在返回true，不存在返回false
         if (al.contains(s)) {
@@ -231,4 +230,6 @@ public class CollectionTest04 {
        return false;
     }
 }
-```
+
+# File类&递归&FileFilter
+	
