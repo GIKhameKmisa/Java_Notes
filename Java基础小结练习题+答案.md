@@ -855,7 +855,7 @@ System.out.println(hm);
 
 四、往一个Map集合中添加若干元素。获取Map中的所有value，并使用增强for和迭代器遍历输出每个value。
 
-```
+```java
 public class MapTest02 {
 public static void main(String[] args) {
 // 1.创建HashMap
@@ -890,7 +890,7 @@ while (itr.hasNext()) {
 ## 练习五：HashMap存储键是自定义对象值是String
  五、请使用Map集合存储自定义数据类型Car做键，对应的价格做值。并使用keySet和entrySet两种方式遍历Map集合。
 
-```
+```java
 汽车类:
 // 1.定义汽车类.包含名称和价格属性,重写hashCode和equals方法
 public class Car {
@@ -943,7 +943,7 @@ return result;
 }
 ```
 
-```
+```java
 测试类:
 public class MapTest03 {
 public static void main(String[] args) {
@@ -983,7 +983,7 @@ for (Map.Entry<Car, Integer> entry : entrySet) {
 ## 练习六：Map集合的使用（一）
 
 六、现在有一个map集合如下：
-``` 
+``` java
 Map<Integer,String> map = new HashMap<Integer, String>();
         map.put(1, "张三丰");
         map.put(2, "周芷若");
@@ -996,7 +996,7 @@ Map<Integer,String> map = new HashMap<Integer, String>();
 3.移除该map中的编号为1的信息 
 4.将map集合中编号为2的姓名信息修改为"周林"
 
-```
+```java
 public class MapTest04 {
 public static void main(String[] args) {
 // 1.定义HashMap,编号作为key,姓名作为value
@@ -1032,7 +1032,7 @@ map.put(2, "周林");
 
 七、有2个数组，第一个数组内容为：[黑龙江省,浙江省,江西省,广东省,福建省]，第二个数组为：[哈尔滨,杭州,南昌,广州,福州]，将第一个数组元素作为key，第二个数组元素作为value存储到Map集合中。如{黑龙江省=哈尔滨, 浙江省=杭州, …}。
 
-```
+```java
 public class MapTest05 {
 public static void main(String[] args) {
 // 1.定义第一个数组arr1
